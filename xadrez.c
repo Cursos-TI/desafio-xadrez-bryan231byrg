@@ -15,7 +15,6 @@ int main() {
     int i; // Variavel para os Loops
 
     // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
         printf("Bispo: %d casas na diagonal superior direita\n", Bispo_Casas);
     for (i = 1; i <= Bispo_Casas; i++) {
         printf("Cima\n");
@@ -24,7 +23,6 @@ int main() {
     printf("\n");
 
     // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
     printf("Torre: %d casas na direita\n", Torre_Casas);
     i = 1;
     while (i <= Torre_Casas)
@@ -35,8 +33,7 @@ int main() {
         printf("\n");
 
     // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
-        printf("\nRainha: %d casas na esquerda\n", Rainha_Casas);
+        printf("Rainha: %d casas na esquerda\n", Rainha_Casas);
         i = 1;
     do
     {
