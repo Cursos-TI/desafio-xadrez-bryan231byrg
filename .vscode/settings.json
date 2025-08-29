@@ -3,5 +3,8 @@
     "debug.onTaskErrors": "showErrors",
     "terminal.integrated.autoReplies": {
         
-    }
+    },
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }
